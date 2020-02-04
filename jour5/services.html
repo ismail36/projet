@@ -5,8 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <center>
+            <h1 class="titreDePage">HOTEL MARSEILLE</h1>
+        </center>
+        <div>
+            <nav>
+                <a class="button1" href="index.html">accueil</a>
+                <a class="button2" href="services.html">services</a>
+                <a class="button3" href="contact.html">contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <center>
+            <div class="w3">
+                <img class="mySlides" src="assets/img/hotel1.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotel2.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotel3.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotel4.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotel5.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotel6.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotelServices1.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotelServices2.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/hotelServices3.jpeg" style="width:100%">
+                <img class="mySlides" src="assets/img/Les traditions culinaires à Marseille.jpg" style="width:100%">
+              </div>
+        </center>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 5000);    
+          }
+          </script>
+    </main>
+
+    <footer>
+        
+    </footer>
+
 </body>
 </html>
