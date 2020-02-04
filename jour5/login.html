@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hotel Marseille Contact</title>
+    <title>Hotel Marseille Login</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -17,18 +17,30 @@
                 <a class="button1" href="index.html">accueil</a>
                 <a class="button2" href="services.html">services</a>
                 <a class="button3" href="contact.html">contact</a>
-                <a class="button4" href="login.html">login</a>  
+                <a class="button4" href="login.html">login</a>
             </nav>
         </div>
+        
     </header>
 
     <main>
-
+        <center class="loginAction">
+            <form action="login">
+                <br>
+                <label>Username</label>
+                <input type="text" id="username"/>
+                <br><br>
+                <label>Password</label>
+                <input type="text" id="password"/>
+                <input type="submit" value="Login" onclick="check(this.form)"/>
+            </form>
+        </center>
         
     </main>
 
     <footer>
 
     </footer>
+    
 </body>
 </html>
