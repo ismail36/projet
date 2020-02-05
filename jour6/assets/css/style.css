@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+a {
+    color: orangered;
+}
+
+.photo {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
