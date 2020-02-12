@@ -1,0 +1,30 @@
+.container {
+
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+
+}
+
+.container img {
+
+    margin:10px;
+    max-width:100%;
+    width: calc(100% / 3 - 20px);
+    object-fit: cover;
+    height:400px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+
+.container img:hover {
+
+    width: 30%;
+    height: 30%;
+
+}
+

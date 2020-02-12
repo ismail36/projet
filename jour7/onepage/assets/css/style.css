@@ -1,0 +1,4 @@
+.lecon1Text .lesPoint11 .lesPoint12 .lesPoint13 {
+    display: flex;
+    justify-content: space-between;
+}
