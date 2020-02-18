@@ -23,11 +23,11 @@ $email = "i.aydin20014@gmail.com";
 <body>
 
     <header>
+        <div class="headInfos">
+            <img class="profilePhoto" src="assets/img/profile.jpg" alt="Profile Photo">
+            <h1 class="name"><?php echo $name ?></h1>
 
-        <img class="profilePhoto" src="assets/img/profile.jpg" alt="Profile Photo">
-        <h1 class="name"><?php echo $name ?></h1>
-
-        <p class="informations"><?php echo $adresse. ' | '. $telephone. ' | '. $email ?></p>
-
+            <p class="informations"><?php echo $adresse. ' | '. $telephone. ' | '. $email ?></p>
+        </div>
     </header>
     <main>

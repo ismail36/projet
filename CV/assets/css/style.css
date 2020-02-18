@@ -1,0 +1,23 @@
+.mainSection {
+    display: flex;
+    flex: 1;
+    margin-left: 85px;
+    margin-right: 85px;
+    font-size: 16px;
+}
+
+.mainSection > .sectionLeft {
+    flex: 1;
+    order: 1;
+}
+
+.mainSection > .sectionRight {
+    flex: 1;
+    order: 2;
+}
+ 
+
+.headInfos {
+    text-align: center;
+}
+
