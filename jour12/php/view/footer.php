@@ -3,6 +3,6 @@
 
 
     </footer>
-    <script src="assets/js/js.js"></script>
+    <script src="assets/js/javas.js"></script>
 </body>
 </html>
