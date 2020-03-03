@@ -10,7 +10,16 @@
 // paramétres : 
 // adresse du serveur de BDD
 // nom d'utilisateur BDD
-// mdp BDD : string
+// mdp BDD : string 
 
-$pdo = new PDO("mysql:host=localhost;dbname=blog;charset=utf8","letitbe13","Tinjiful");
+try {
+    //code...
+    $pdo = new PDO("mysql:host=127.0.0.1;dbname=ismail;charset=utf8","ismail","0665454061");
+    echo "Succefully connected to database";
+} catch (PDOException $error) {
+    //throw $th;
+    echo "Failed connecting to database : " . $error->getMessage();
+}
+
+
 
